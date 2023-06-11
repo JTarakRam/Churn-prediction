@@ -1,0 +1,10 @@
+artifacts
+churn-venv
+config
+data
+logs
+mlruns
+models
+notebooks
+reports
+src
