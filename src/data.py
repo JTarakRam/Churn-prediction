@@ -117,6 +117,7 @@ def preprocess_data(file_path):
 
     return cleaned_data
 
+
 if __name__ == "__main__":
     df = pd.read_csv("/Users/tarakram/Documents/Churn-Prediction/data/raw/customer_churn_raw_data.csv")
     label_encoder = LabelEncoder()
