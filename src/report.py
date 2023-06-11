@@ -82,6 +82,6 @@ def generate_reports():
     # src = Path(REPORTS_DIR)
     # dst = 'frontend/reports/'
     # shutil.rmtree(dst)
-    # shutil.copytree(src, dst)
+    # shutil.copytree(src,dst)
 
 generate_reports()
