@@ -17,7 +17,7 @@ ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
-RAW_DATA_URL = "https://github.com/JTarakRam/Customer_Churn_Prediction/blob/main/data/raw/customer_churn_raw_data.csv"
+RAW_DATA_URL = "https://github.com/JTarakRam/Churn_Prediction/blob/main/data/raw/customer_churn_raw_data.csv"
 
 LOGS_DIR = Path(BASE_DIR, "logs")
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
