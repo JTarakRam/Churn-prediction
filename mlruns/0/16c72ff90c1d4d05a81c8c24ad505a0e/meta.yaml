@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/16c72ff90c1d4d05a81c8c24ad505a0e/artifacts
+end_time: 1686485112645
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16c72ff90c1d4d05a81c8c24ad505a0e
+run_name: crawling-mole-932
+run_uuid: 16c72ff90c1d4d05a81c8c24ad505a0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686485111505
+status: 3
+tags: []
+user_id: tarakram

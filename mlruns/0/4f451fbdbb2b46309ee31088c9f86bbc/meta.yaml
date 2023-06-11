@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/4f451fbdbb2b46309ee31088c9f86bbc/artifacts
+end_time: 1686485745611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f451fbdbb2b46309ee31088c9f86bbc
+run_name: dapper-wren-527
+run_uuid: 4f451fbdbb2b46309ee31088c9f86bbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686485744255
+status: 3
+tags: []
+user_id: tarakram

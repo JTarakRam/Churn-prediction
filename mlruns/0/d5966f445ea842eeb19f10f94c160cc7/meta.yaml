@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/d5966f445ea842eeb19f10f94c160cc7/artifacts
+end_time: 1686485206523
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5966f445ea842eeb19f10f94c160cc7
+run_name: charming-ant-769
+run_uuid: d5966f445ea842eeb19f10f94c160cc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686485205458
+status: 3
+tags: []
+user_id: tarakram

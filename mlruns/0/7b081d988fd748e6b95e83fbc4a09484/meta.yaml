@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/7b081d988fd748e6b95e83fbc4a09484/artifacts
+end_time: 1686484634696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b081d988fd748e6b95e83fbc4a09484
+run_name: chill-hawk-54
+run_uuid: 7b081d988fd748e6b95e83fbc4a09484
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686484633571
+status: 3
+tags: []
+user_id: tarakram

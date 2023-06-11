@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/252b6e26d0b64003bb3e1c048916e47d/artifacts
+end_time: 1686484640053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 252b6e26d0b64003bb3e1c048916e47d
+run_name: unleashed-auk-904
+run_uuid: 252b6e26d0b64003bb3e1c048916e47d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686484638855
+status: 3
+tags: []
+user_id: tarakram

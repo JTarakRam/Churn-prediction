@@ -1,7 +1,6 @@
 import warnings
 from pathlib import Path
 import pickle
-import logging
 import numpy as np
 import pandas as pd
 import os
@@ -82,14 +81,14 @@ def replace_with_no(cleaned_data):
     return cleaned_data
 
 def label_encoding(cleaned_data):
+    label_encoder = LabelEncoder()
     encode_vals = ['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
                    'InternetService', 'OnlineSecurity', 'Contract', 'PaymentMethod', 'Churn']
-    cleaned_data_copy = cleaned_data.copy()
     for column in encode_vals:
         if column in cleaned_data.columns:
-            cleaned_data_copy[column] = label_encoder.fit_transform(cleaned_data_copy[column])
+            cleaned_data[column] = label_encoder.fit_transform(cleaned_data[column])
     logger.info('Label Encoding completed!')
-    return cleaned_data_copy
+    return cleaned_data
 
 def to_numeric(cleaned_data):
     cleaned_data['TotalCharges'] = pd.to_numeric(cleaned_data['TotalCharges'], errors='coerce').fillna(0).astype(float)
@@ -97,11 +96,12 @@ def to_numeric(cleaned_data):
     return cleaned_data
 
 def scaling(cleaned_data):
+    scaler = MinMaxScaler()
     numeric_columns = cleaned_data.select_dtypes(include=np.number).columns
-    cleaned_data_scaled = cleaned_data.copy()
-    cleaned_data_scaled[numeric_columns] = scaler.fit_transform(cleaned_data_scaled[numeric_columns])
-    logger.info('Scaling Completed & saved into pkl file!')
-    return cleaned_data_scaled
+    cleaned_data = cleaned_data.copy()
+    cleaned_data[numeric_columns] = scaler.fit_transform(cleaned_data[numeric_columns])
+    logger.info('Scaling Completed!')
+    return cleaned_data
 
 def preprocess_data(file_path):
     '''

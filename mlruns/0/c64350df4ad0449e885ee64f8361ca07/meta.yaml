@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/c64350df4ad0449e885ee64f8361ca07/artifacts
+end_time: 1686484635910
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c64350df4ad0449e885ee64f8361ca07
+run_name: inquisitive-gnu-838
+run_uuid: c64350df4ad0449e885ee64f8361ca07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686484634704
+status: 3
+tags: []
+user_id: tarakram

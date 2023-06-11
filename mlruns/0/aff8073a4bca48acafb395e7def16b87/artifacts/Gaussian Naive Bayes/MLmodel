@@ -1,0 +1,19 @@
+artifact_path: Gaussian Naive Bayes
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.4.1
+model_uuid: fbe173fbce1849fca2950ef3b637c34a
+run_id: aff8073a4bca48acafb395e7def16b87
+utc_time_created: '2023-06-11 12:15:41.374089'

@@ -18,24 +18,13 @@ from sklearn.metrics import (
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import BernoulliNB, MultinomialNB, GaussianNB
 from sklearn.tree import DecisionTreeClassifier
-from data import preprocess_data
-
-BASE_DIR = Path(__file__).parent.parent.absolute()
-ARTIFACTS_DIR = BASE_DIR / "artifacts"
-ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
-
-# Set up logging
-LOGS_DIR = Path(BASE_DIR, "logs")
-LOGS_DIR.mkdir(parents=True, exist_ok=True)
-
-logging.basicConfig(
-    filename=LOGS_DIR / "info.log",
-    format="%(levelname)s %(asctime)s [%(name)s:%(filename)s:%(funcName)s:%(lineno)d]\n%(message)s\n",
-    level=logging.INFO,
-)
-
-# Define the logger
-logger = logging.getLogger(__name__)
+import os
+import sys
+current_dir = os.path.dirname(os.path.abspath(__file__))
+project_dir = os.path.dirname(current_dir)
+sys.path.append(project_dir)
+from config.config import logger
+from config.config import ARTIFACTS_DIR
 
 # Define models for churn prediction
 lr = LogisticRegression(max_iter=5)
@@ -116,7 +105,7 @@ def churn_prediction(df: pd.DataFrame):
 
 if __name__ == "__main__":
     # Load the dataset
-    df = pd.read_csv('/Users/tarakram/Documents/Customer-Churn/data/processed/pre_processed_data.csv')
+    df = pd.read_csv('/Users/tarakram/Documents/Churn-Prediction/artifacts/processed_data.csv')
 
     # Call the churn_prediction function
     scores_df, best_model, best_model_name, best_model_report = churn_prediction(df)

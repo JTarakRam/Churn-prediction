@@ -1,0 +1,19 @@
+artifact_path: Multinomial Naive Bayes
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.4.1
+model_uuid: 7317ddabc7984641a9966e29b01e421c
+run_id: c64350df4ad0449e885ee64f8361ca07
+utc_time_created: '2023-06-11 11:57:14.708270'

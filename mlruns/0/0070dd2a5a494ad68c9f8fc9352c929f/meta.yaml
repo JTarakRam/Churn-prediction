@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/0070dd2a5a494ad68c9f8fc9352c929f/artifacts
+end_time: 1686485204293
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0070dd2a5a494ad68c9f8fc9352c929f
+run_name: judicious-wren-146
+run_uuid: 0070dd2a5a494ad68c9f8fc9352c929f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686485202758
+status: 3
+tags: []
+user_id: tarakram

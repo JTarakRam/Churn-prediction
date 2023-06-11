@@ -1,0 +1,19 @@
+artifact_path: Bernoulli Naive Bayes
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.4.1
+model_uuid: e04bf9e91b3c4c8f8ed235e1d9bcdbda
+run_id: 7b081d988fd748e6b95e83fbc4a09484
+utc_time_created: '2023-06-11 11:57:13.575384'

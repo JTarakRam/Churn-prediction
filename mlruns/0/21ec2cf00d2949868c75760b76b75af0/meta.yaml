@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/21ec2cf00d2949868c75760b76b75af0/artifacts
+end_time: 1686485207605
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 21ec2cf00d2949868c75760b76b75af0
+run_name: monumental-pug-229
+run_uuid: 21ec2cf00d2949868c75760b76b75af0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686485206530
+status: 3
+tags: []
+user_id: tarakram

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/fccdf239d8574888b4e379388c18af29/artifacts
+end_time: 1686485118037
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fccdf239d8574888b4e379388c18af29
+run_name: bouncy-crane-803
+run_uuid: fccdf239d8574888b4e379388c18af29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686485116831
+status: 3
+tags: []
+user_id: tarakram

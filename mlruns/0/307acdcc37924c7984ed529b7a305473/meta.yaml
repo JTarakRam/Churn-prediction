@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/307acdcc37924c7984ed529b7a305473/artifacts
+end_time: 1686485741361
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 307acdcc37924c7984ed529b7a305473
+run_name: caring-ray-77
+run_uuid: 307acdcc37924c7984ed529b7a305473
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686485740296
+status: 3
+tags: []
+user_id: tarakram

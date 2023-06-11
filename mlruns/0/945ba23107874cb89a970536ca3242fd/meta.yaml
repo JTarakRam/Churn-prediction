@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/945ba23107874cb89a970536ca3242fd/artifacts
+end_time: 1686485738995
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 945ba23107874cb89a970536ca3242fd
+run_name: valuable-yak-40
+run_uuid: 945ba23107874cb89a970536ca3242fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686485737427
+status: 3
+tags: []
+user_id: tarakram
