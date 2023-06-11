@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/7b02f27efef1499b9015fe3f66bb8938/artifacts
+end_time: 1686483962530
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b02f27efef1499b9015fe3f66bb8938
+run_name: learned-smelt-124
+run_uuid: 7b02f27efef1499b9015fe3f66bb8938
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686483961351
+status: 3
+tags: []
+user_id: tarakram

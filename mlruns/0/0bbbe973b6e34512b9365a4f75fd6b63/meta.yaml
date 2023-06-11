@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/0bbbe973b6e34512b9365a4f75fd6b63/artifacts
+end_time: 1686483959001
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bbbe973b6e34512b9365a4f75fd6b63
+run_name: glamorous-fox-482
+run_uuid: 0bbbe973b6e34512b9365a4f75fd6b63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686483957404
+status: 3
+tags: []
+user_id: tarakram

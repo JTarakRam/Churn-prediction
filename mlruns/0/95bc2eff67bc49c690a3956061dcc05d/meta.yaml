@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/95bc2eff67bc49c690a3956061dcc05d/artifacts
+end_time: 1686483963789
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95bc2eff67bc49c690a3956061dcc05d
+run_name: omniscient-flea-70
+run_uuid: 95bc2eff67bc49c690a3956061dcc05d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686483962560
+status: 3
+tags: []
+user_id: tarakram

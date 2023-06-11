@@ -6,7 +6,6 @@ def load_model():
     with open('artifacts/churn_model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
-
 def predict_churn(data: pd.DataFrame):
     model = load_model()
     preprocessed_data = preprocess_data(data)

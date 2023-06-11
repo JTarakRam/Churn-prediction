@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/7a1e87c580214d9d9bb8bfb89c903795/artifacts
+end_time: 1686483965598
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a1e87c580214d9d9bb8bfb89c903795
+run_name: luxuriant-calf-233
+run_uuid: 7a1e87c580214d9d9bb8bfb89c903795
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686483964302
+status: 3
+tags: []
+user_id: tarakram

@@ -1,0 +1,207 @@
+INFO 2023-06-11 17:12:34,033 [root:data.py:load_data:34]
+Loaded the dataset from DataFrame!
+
+INFO 2023-06-11 17:12:34,049 [root:data.py:clean_data:71]
+Cleaning completed!
+
+INFO 2023-06-11 17:12:34,051 [root:data.py:replace_with_no:84]
+Replaced with No
+
+INFO 2023-06-11 17:12:34,058 [root:data.py:label_encoding:94]
+Label Encoding completed!
+
+INFO 2023-06-11 17:12:34,060 [root:data.py:to_numeric:99]
+Converted into int!
+
+INFO 2023-06-11 17:12:34,064 [root:data.py:scaling:106]
+Scaling Completed & saved into pkl file!
+
+INFO 2023-06-11 17:12:34,064 [root:data.py:preprocess_data:119]
+Data preprocessed!
+
+INFO 2023-06-11 17:15:58,987 [__main__:train.py:churn_prediction:78]
+Model Logistic Regression logged to MLflow.
+
+INFO 2023-06-11 17:15:58,989 [__main__:train.py:churn_prediction:79]
+Accuracy: 67.28, Precision: 67.85, Recall: 62.80, F1: 65.22
+
+INFO 2023-06-11 17:15:58,999 [__main__:train.py:churn_prediction:83]
+Classification Report for Model Logistic Regression:
+              precision    recall  f1-score      support
+0              0.668142  0.715640  0.691076  1055.000000
+1              0.678457  0.627976  0.652241  1008.000000
+accuracy       0.672807  0.672807  0.672807     0.672807
+macro avg      0.673299  0.671808  0.671658  2063.000000
+weighted avg   0.673182  0.672807  0.672101  2063.000000
+
+INFO 2023-06-11 17:16:00,184 [__main__:train.py:churn_prediction:78]
+Model Bernoulli Naive Bayes logged to MLflow.
+
+INFO 2023-06-11 17:16:00,185 [__main__:train.py:churn_prediction:79]
+Accuracy: 77.22, Precision: 72.99, Recall: 84.72, F1: 78.42
+
+INFO 2023-06-11 17:16:00,193 [__main__:train.py:churn_prediction:83]
+Classification Report for Model Bernoulli Naive Bayes:
+              precision    recall  f1-score      support
+0              0.827548  0.700474  0.758727  1055.000000
+1              0.729915  0.847222  0.784206  1008.000000
+accuracy       0.772176  0.772176  0.772176     0.772176
+macro avg      0.778731  0.773848  0.771466  2063.000000
+weighted avg   0.779843  0.772176  0.771176  2063.000000
+
+INFO 2023-06-11 17:16:01,335 [__main__:train.py:churn_prediction:78]
+Model Multinomial Naive Bayes logged to MLflow.
+
+INFO 2023-06-11 17:16:01,336 [__main__:train.py:churn_prediction:79]
+Accuracy: 68.93, Precision: 65.51, Recall: 76.88, F1: 70.74
+
+INFO 2023-06-11 17:16:01,342 [__main__:train.py:churn_prediction:83]
+Classification Report for Model Multinomial Naive Bayes:
+              precision    recall  f1-score      support
+0              0.735227  0.613270  0.668734  1055.000000
+1              0.655114  0.768849  0.707440  1008.000000
+accuracy       0.689287  0.689287  0.689287     0.689287
+macro avg      0.695171  0.691060  0.688087  2063.000000
+weighted avg   0.696083  0.689287  0.687646  2063.000000
+
+INFO 2023-06-11 17:16:02,520 [__main__:train.py:churn_prediction:78]
+Model Gaussian Naive Bayes logged to MLflow.
+
+INFO 2023-06-11 17:16:02,521 [__main__:train.py:churn_prediction:79]
+Accuracy: 78.57, Precision: 74.65, Recall: 85.02, F1: 79.50
+
+INFO 2023-06-11 17:16:02,528 [__main__:train.py:churn_prediction:83]
+Classification Report for Model Gaussian Naive Bayes:
+              precision    recall  f1-score      support
+0              0.834973  0.724171  0.775635  1055.000000
+1              0.746516  0.850198  0.794991  1008.000000
+accuracy       0.785749  0.785749  0.785749     0.785749
+macro avg      0.790744  0.787185  0.785313  2063.000000
+weighted avg   0.791752  0.785749  0.785092  2063.000000
+
+INFO 2023-06-11 17:16:03,780 [__main__:train.py:churn_prediction:78]
+Model Decision Tree logged to MLflow.
+
+INFO 2023-06-11 17:16:03,781 [__main__:train.py:churn_prediction:79]
+Accuracy: 78.96, Precision: 77.23, Recall: 80.75, F1: 78.95
+
+INFO 2023-06-11 17:16:03,788 [__main__:train.py:churn_prediction:83]
+Classification Report for Model Decision Tree:
+              precision    recall  f1-score      support
+0              0.807730  0.772512  0.789729  1055.000000
+1              0.772296  0.807540  0.789525  1008.000000
+accuracy       0.789627  0.789627  0.789627     0.789627
+macro avg      0.790013  0.790026  0.789627  2063.000000
+weighted avg   0.790417  0.789627  0.789629  2063.000000
+
+INFO 2023-06-11 17:16:05,588 [__main__:train.py:churn_prediction:78]
+Model Random Forest logged to MLflow.
+
+INFO 2023-06-11 17:16:05,589 [__main__:train.py:churn_prediction:79]
+Accuracy: 81.63, Precision: 80.10, Recall: 83.04, F1: 81.54
+
+INFO 2023-06-11 17:16:05,597 [__main__:train.py:churn_prediction:83]
+Classification Report for Model Random Forest:
+              precision    recall  f1-score      support
+0              0.832024  0.802844  0.817173  1055.000000
+1              0.800957  0.830357  0.815392  1008.000000
+accuracy       0.816287  0.816287  0.816287     0.816287
+macro avg      0.816490  0.816600  0.816283  2063.000000
+weighted avg   0.816844  0.816287  0.816303  2063.000000
+
+INFO 2023-06-11 17:16:05,643 [__main__:train.py:churn_prediction:102]
+Best model: Random Forest
+
+INFO 2023-06-11 17:16:05,643 [__main__:train.py:churn_prediction:103]
+Churn model and evaluation scores saved to /Users/tarakram/Documents/Churn-Prediction/artifacts.
+
+INFO 2023-06-11 17:16:05,646 [__main__:train.py:<module>:126]
+Classification Report for Model Logistic Regression:
+Model        Logistic Regression
+Accuracy               67.280659
+Precision              67.845659
+Recall                 62.797619
+F1                     65.224111
+Name: 0, dtype: object
+
+INFO 2023-06-11 17:16:05,647 [__main__:train.py:<module>:126]
+Classification Report for Model Bernoulli Naive Bayes:
+Model        Bernoulli Naive Bayes
+Accuracy                 77.217644
+Precision                72.991453
+Recall                   84.722222
+F1                       78.420569
+Name: 1, dtype: object
+
+INFO 2023-06-11 17:16:05,649 [__main__:train.py:<module>:126]
+Classification Report for Model Multinomial Naive Bayes:
+Model        Multinomial Naive Bayes
+Accuracy                   68.928745
+Precision                  65.511412
+Recall                     76.884921
+F1                         70.743953
+Name: 2, dtype: object
+
+INFO 2023-06-11 17:16:05,650 [__main__:train.py:<module>:126]
+Classification Report for Model Gaussian Naive Bayes:
+Model        Gaussian Naive Bayes
+Accuracy                78.574891
+Precision               74.651568
+Recall                  85.019841
+F1                      79.499072
+Name: 3, dtype: object
+
+INFO 2023-06-11 17:16:05,651 [__main__:train.py:<module>:126]
+Classification Report for Model Decision Tree:
+Model        Decision Tree
+Accuracy         78.962676
+Precision        77.229602
+Recall           80.753968
+F1               78.952473
+Name: 4, dtype: object
+
+INFO 2023-06-11 17:16:05,653 [__main__:train.py:<module>:126]
+Classification Report for Model Random Forest:
+Model        Random Forest
+Accuracy         81.628696
+Precision        80.095694
+Recall           83.035714
+F1               81.539211
+Name: 5, dtype: object
+
+INFO 2023-06-11 17:18:47,452 [root:utils.py:<module>:18]
+Got the Numerical columns !
+
+INFO 2023-06-11 17:18:47,454 [root:utils.py:<module>:32]
+Got the Categorical columns !
+
+INFO 2023-06-11 17:19:27,719 [root:data.py:load_data:34]
+Loaded the dataset from DataFrame!
+
+INFO 2023-06-11 17:19:27,724 [root:data.py:clean_data:71]
+Cleaning completed!
+
+INFO 2023-06-11 17:19:27,725 [root:data.py:replace_with_no:84]
+Replaced with No
+
+INFO 2023-06-11 17:20:57,310 [root:data.py:load_data:31]
+Loaded the dataset from DataFrame!
+
+INFO 2023-06-11 17:20:57,322 [root:data.py:clean_data:68]
+Cleaning completed!
+
+INFO 2023-06-11 17:20:57,324 [root:data.py:replace_with_no:81]
+Replaced with No
+
+INFO 2023-06-11 17:20:57,330 [root:data.py:label_encoding:91]
+Label Encoding completed!
+
+INFO 2023-06-11 17:20:57,332 [root:data.py:to_numeric:96]
+Converted into int!
+
+INFO 2023-06-11 17:20:57,336 [root:data.py:scaling:103]
+Scaling Completed & saved into pkl file!
+
+INFO 2023-06-11 17:20:57,337 [root:data.py:preprocess_data:116]
+Data preprocessed!
+

@@ -4,25 +4,20 @@ import pickle
 import logging
 import numpy as np
 import pandas as pd
+import os
+import sys
+# Get the current file's directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Get the parent directory (project directory)
+project_dir = os.path.dirname(current_dir)
+# Add the project directory to the Python path
+sys.path.append(project_dir)
+# Now you can import the config module
+from config.config import ARTIFACTS_DIR
+from config.config import logger
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
-
 warnings.filterwarnings("ignore")
 
-BASE_DIR = Path(__file__).parent.parent.absolute()
-ARTIFACTS_DIR = BASE_DIR / "/Users/tarakram/Documents/Customer_Churn_Classification/artifacts"
-ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
-
-# Set up logging
-LOGS_DIR = Path(__file__).parent.parent.absolute() / "/Users/tarakram/Documents/Customer_Churn_Classification/logs"
-LOGS_DIR.mkdir(parents=True, exist_ok=True)
-
-logging.basicConfig(
-    filename=LOGS_DIR / "info.log",
-    format="%(levelname)s %(asctime)s [%(name)s:%(filename)s:%(funcName)s:%(lineno)d]\n%(message)s\n",
-    level=logging.INFO,
-)
-
-logger = logging.getLogger(__name__)
 
 def load_data(file_path):
     '''Load the dataset from a file or DataFrame.'''
@@ -123,11 +118,9 @@ def preprocess_data(file_path):
     return cleaned_data
 
 if __name__ == "__main__":
-    df = pd.read_csv("data/raw/customer_churn_raw_data.csv")
-
+    df = pd.read_csv("/Users/tarakram/Documents/Churn-Prediction/data/raw/customer_churn_raw_data.csv")
     label_encoder = LabelEncoder()
     scaler = MinMaxScaler()
-
     processed_data = preprocess_data(df)
 
     processed_data.to_csv(ARTIFACTS_DIR / 'processed_data.csv', index=False)
