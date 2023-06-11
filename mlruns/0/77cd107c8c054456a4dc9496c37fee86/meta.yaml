@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/77cd107c8c054456a4dc9496c37fee86/artifacts
+end_time: 1686500979397
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 77cd107c8c054456a4dc9496c37fee86
+run_name: popular-panda-570
+run_uuid: 77cd107c8c054456a4dc9496c37fee86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500978316
+status: 3
+tags: []
+user_id: tarakram

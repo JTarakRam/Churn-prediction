@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/0cdcb8b17b4c4c83b9025ae4b3de63b9/artifacts
+end_time: 1686500596053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0cdcb8b17b4c4c83b9025ae4b3de63b9
+run_name: enchanting-stoat-856
+run_uuid: 0cdcb8b17b4c4c83b9025ae4b3de63b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500594978
+status: 3
+tags: []
+user_id: tarakram

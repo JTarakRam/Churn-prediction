@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/b274ed84f2b742c8869dfadd4be7de28/artifacts
+end_time: 1686500281203
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b274ed84f2b742c8869dfadd4be7de28
+run_name: puzzled-shrike-521
+run_uuid: b274ed84f2b742c8869dfadd4be7de28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500279645
+status: 3
+tags: []
+user_id: tarakram

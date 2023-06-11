@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/6eaa9c89c52b4988a44aab6734e6110f/artifacts
+end_time: 1686500431513
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6eaa9c89c52b4988a44aab6734e6110f
+run_name: industrious-croc-307
+run_uuid: 6eaa9c89c52b4988a44aab6734e6110f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500430457
+status: 3
+tags: []
+user_id: tarakram

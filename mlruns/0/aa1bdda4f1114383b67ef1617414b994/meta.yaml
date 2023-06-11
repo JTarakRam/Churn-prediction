@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/aa1bdda4f1114383b67ef1617414b994/artifacts
+end_time: 1686500434488
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa1bdda4f1114383b67ef1617414b994
+run_name: industrious-grub-524
+run_uuid: aa1bdda4f1114383b67ef1617414b994
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500433125
+status: 3
+tags: []
+user_id: tarakram

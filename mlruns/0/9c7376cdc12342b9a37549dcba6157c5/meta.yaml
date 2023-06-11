@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/9c7376cdc12342b9a37549dcba6157c5/artifacts
+end_time: 1686500597804
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c7376cdc12342b9a37549dcba6157c5
+run_name: treasured-doe-402
+run_uuid: 9c7376cdc12342b9a37549dcba6157c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500596479
+status: 3
+tags: []
+user_id: tarakram

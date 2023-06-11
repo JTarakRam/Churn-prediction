@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/a878671b0bda47a695aef94c4e9cb04d/artifacts
+end_time: 1686500497371
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a878671b0bda47a695aef94c4e9cb04d
+run_name: gifted-shad-41
+run_uuid: a878671b0bda47a695aef94c4e9cb04d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500496266
+status: 3
+tags: []
+user_id: tarakram

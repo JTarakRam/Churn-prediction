@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/d2fed4691bf14ad2b33342455f1ef477/artifacts
+end_time: 1686500499056
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d2fed4691bf14ad2b33342455f1ef477
+run_name: burly-ram-836
+run_uuid: d2fed4691bf14ad2b33342455f1ef477
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500497797
+status: 3
+tags: []
+user_id: tarakram

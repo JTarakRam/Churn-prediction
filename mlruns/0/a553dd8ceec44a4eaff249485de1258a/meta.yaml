@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/a553dd8ceec44a4eaff249485de1258a/artifacts
+end_time: 1686500428265
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a553dd8ceec44a4eaff249485de1258a
+run_name: unruly-squirrel-494
+run_uuid: a553dd8ceec44a4eaff249485de1258a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500426676
+status: 3
+tags: []
+user_id: tarakram

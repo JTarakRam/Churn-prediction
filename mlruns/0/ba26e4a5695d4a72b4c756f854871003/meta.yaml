@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/ba26e4a5695d4a72b4c756f854871003/artifacts
+end_time: 1686500593864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ba26e4a5695d4a72b4c756f854871003
+run_name: sneaky-bear-783
+run_uuid: ba26e4a5695d4a72b4c756f854871003
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500592727
+status: 3
+tags: []
+user_id: tarakram

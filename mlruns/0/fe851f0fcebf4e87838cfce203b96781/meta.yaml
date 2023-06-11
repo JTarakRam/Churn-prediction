@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/fe851f0fcebf4e87838cfce203b96781/artifacts
+end_time: 1686500282322
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe851f0fcebf4e87838cfce203b96781
+run_name: abrasive-mink-421
+run_uuid: fe851f0fcebf4e87838cfce203b96781
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500281211
+status: 3
+tags: []
+user_id: tarakram

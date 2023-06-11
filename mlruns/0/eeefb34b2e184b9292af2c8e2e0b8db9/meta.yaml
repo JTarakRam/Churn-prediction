@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/eeefb34b2e184b9292af2c8e2e0b8db9/artifacts
+end_time: 1686500167432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eeefb34b2e184b9292af2c8e2e0b8db9
+run_name: tasteful-sow-411
+run_uuid: eeefb34b2e184b9292af2c8e2e0b8db9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500166355
+status: 3
+tags: []
+user_id: tarakram

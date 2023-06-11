@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/ceea121da4964cf9a5de7d33b42765f2/artifacts
+end_time: 1686500978309
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ceea121da4964cf9a5de7d33b42765f2
+run_name: marvelous-moose-979
+run_uuid: ceea121da4964cf9a5de7d33b42765f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500977210
+status: 3
+tags: []
+user_id: tarakram

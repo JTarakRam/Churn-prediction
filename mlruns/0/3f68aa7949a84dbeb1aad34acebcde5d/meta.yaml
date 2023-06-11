@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/3f68aa7949a84dbeb1aad34acebcde5d/artifacts
+end_time: 1686500429388
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f68aa7949a84dbeb1aad34acebcde5d
+run_name: smiling-duck-771
+run_uuid: 3f68aa7949a84dbeb1aad34acebcde5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500428273
+status: 3
+tags: []
+user_id: tarakram

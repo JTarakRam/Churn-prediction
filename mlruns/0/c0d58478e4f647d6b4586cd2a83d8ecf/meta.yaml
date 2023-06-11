@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/c0d58478e4f647d6b4586cd2a83d8ecf/artifacts
+end_time: 1686500287361
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0d58478e4f647d6b4586cd2a83d8ecf
+run_name: glamorous-cod-972
+run_uuid: c0d58478e4f647d6b4586cd2a83d8ecf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500286026
+status: 3
+tags: []
+user_id: tarakram

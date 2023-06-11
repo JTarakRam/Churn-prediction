@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/c345753150f946f2b2752789e51bf065/artifacts
+end_time: 1686500977203
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c345753150f946f2b2752789e51bf065
+run_name: awesome-koi-77
+run_uuid: c345753150f946f2b2752789e51bf065
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500976083
+status: 3
+tags: []
+user_id: tarakram

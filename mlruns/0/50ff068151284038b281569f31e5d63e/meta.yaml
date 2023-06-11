@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/50ff068151284038b281569f31e5d63e/artifacts
+end_time: 1686500594953
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50ff068151284038b281569f31e5d63e
+run_name: valuable-owl-897
+run_uuid: 50ff068151284038b281569f31e5d63e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500593871
+status: 3
+tags: []
+user_id: tarakram

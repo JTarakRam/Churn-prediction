@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/de17c0cf0e624b66bb32bcf6ad45dcaf/artifacts
+end_time: 1686500432696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de17c0cf0e624b66bb32bcf6ad45dcaf
+run_name: salty-dog-107
+run_uuid: de17c0cf0e624b66bb32bcf6ad45dcaf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500431539
+status: 3
+tags: []
+user_id: tarakram

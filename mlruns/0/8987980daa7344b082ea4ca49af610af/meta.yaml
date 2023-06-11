@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/8987980daa7344b082ea4ca49af610af/artifacts
+end_time: 1686500982476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8987980daa7344b082ea4ca49af610af
+run_name: skittish-sponge-821
+run_uuid: 8987980daa7344b082ea4ca49af610af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686500981157
+status: 3
+tags: []
+user_id: tarakram
