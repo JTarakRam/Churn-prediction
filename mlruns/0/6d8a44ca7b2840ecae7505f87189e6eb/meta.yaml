@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/6d8a44ca7b2840ecae7505f87189e6eb/artifacts
+end_time: 1686490751408
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d8a44ca7b2840ecae7505f87189e6eb
+run_name: learned-penguin-561
+run_uuid: 6d8a44ca7b2840ecae7505f87189e6eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686490750221
+status: 3
+tags: []
+user_id: tarakram

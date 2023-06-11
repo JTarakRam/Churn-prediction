@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/b4458b2f4a114246adaac13ab548eabe/artifacts
+end_time: 1686490858060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4458b2f4a114246adaac13ab548eabe
+run_name: upbeat-mouse-986
+run_uuid: b4458b2f4a114246adaac13ab548eabe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686490856895
+status: 3
+tags: []
+user_id: tarakram

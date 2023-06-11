@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/cf557bef0de04b4f8845ce246729224d/artifacts
+end_time: 1686490860321
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf557bef0de04b4f8845ce246729224d
+run_name: whimsical-cow-364
+run_uuid: cf557bef0de04b4f8845ce246729224d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686490859238
+status: 3
+tags: []
+user_id: tarakram

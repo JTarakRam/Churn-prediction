@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/6659e183701345b79b83202d753d9b0b/artifacts
+end_time: 1686490756420
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6659e183701345b79b83202d753d9b0b
+run_name: rumbling-stag-697
+run_uuid: 6659e183701345b79b83202d753d9b0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686490755140
+status: 3
+tags: []
+user_id: tarakram

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/4f30e5c7422f4e98a486696b2ed68a28/artifacts
+end_time: 1686490859231
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f30e5c7422f4e98a486696b2ed68a28
+run_name: dazzling-koi-359
+run_uuid: 4f30e5c7422f4e98a486696b2ed68a28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686490858068
+status: 3
+tags: []
+user_id: tarakram

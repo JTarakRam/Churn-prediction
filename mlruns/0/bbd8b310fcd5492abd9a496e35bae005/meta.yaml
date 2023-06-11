@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/bbd8b310fcd5492abd9a496e35bae005/artifacts
+end_time: 1686490856887
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bbd8b310fcd5492abd9a496e35bae005
+run_name: enthused-turtle-48
+run_uuid: bbd8b310fcd5492abd9a496e35bae005
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686490855179
+status: 3
+tags: []
+user_id: tarakram

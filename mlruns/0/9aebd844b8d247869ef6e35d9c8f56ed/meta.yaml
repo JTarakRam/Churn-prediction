@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/9aebd844b8d247869ef6e35d9c8f56ed/artifacts
+end_time: 1686490753570
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9aebd844b8d247869ef6e35d9c8f56ed
+run_name: persistent-shrew-232
+run_uuid: 9aebd844b8d247869ef6e35d9c8f56ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686490752493
+status: 3
+tags: []
+user_id: tarakram
