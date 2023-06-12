@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/4d40e24d51764c5481ec282f94f383f2/artifacts
+end_time: 1686547315390
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d40e24d51764c5481ec282f94f383f2
+run_name: magnificent-wolf-776
+run_uuid: 4d40e24d51764c5481ec282f94f383f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686547314352
+status: 3
+tags: []
+user_id: tarakram

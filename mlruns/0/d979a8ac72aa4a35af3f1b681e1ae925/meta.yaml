@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/d979a8ac72aa4a35af3f1b681e1ae925/artifacts
+end_time: 1686547312189
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d979a8ac72aa4a35af3f1b681e1ae925
+run_name: debonair-bat-261
+run_uuid: d979a8ac72aa4a35af3f1b681e1ae925
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686547310712
+status: 3
+tags: []
+user_id: tarakram

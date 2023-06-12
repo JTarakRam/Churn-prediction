@@ -1,9 +1,9 @@
-import warnings
 from pathlib import Path
 import pickle
 import numpy as np
 import pandas as pd
 import os
+import warnings
 import sys
 # Get the current file's directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -16,7 +16,6 @@ from config.config import ARTIFACTS_DIR
 from config.config import logger
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 warnings.filterwarnings("ignore")
-
 
 def load_data(file_path):
     '''Load the dataset from a file or DataFrame.'''
