@@ -1,6 +1,10 @@
 import pandas as pd
 import pickle
 import streamlit as st
+
+# Set the host and port
+HOST = '0.0.0.0'
+PORT = 8501
 from pathlib import Path
 from src.data import preprocess_data
 

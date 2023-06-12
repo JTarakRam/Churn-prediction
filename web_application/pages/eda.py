@@ -1,4 +1,7 @@
 import streamlit as st
+# Set the host and port
+HOST = '0.0.0.0'
+PORT = 8501
 import json
 import plotly.io as pio
 

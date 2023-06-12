@@ -11,7 +11,7 @@ import streamlit as st
 from typing import Dict
 from typing import List
 from typing import Text
-from web_application.pages.source.ui import display_header
+from pages.source.ui import display_header
 from source.ui import display_report
 from source.ui import select_report
 from source.ui import set_page_container_style
