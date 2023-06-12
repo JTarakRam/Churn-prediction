@@ -17,7 +17,7 @@ col1, col2 = st.columns(2)
 with col1:
     model_scores = model_data["scores"]
     model_scores = pd.DataFrame(model_scores)
-    st.subheader("MODEL: Churn or No churn")
+    st.subheader("MODEL: Churn Prediction Model")
     st.write('Model Scores')
     st.dataframe(model_scores)
 

@@ -6,11 +6,17 @@ import streamlit.components.v1 as components
 from typing import Iterable
 from typing import List
 from typing import Text
+import sys
+# Get the current file's directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Get the parent directory
+parent_dir = os.path.dirname(current_dir)
+# Add the parent directory to the Python path
+sys.path.append(parent_dir)
 
 from source.utils import EntityNotFoundError
 from source.utils import get_report_name
 from source.utils import period_dir_to_dates_range
-
 
 def set_page_container_style() -> None:
     """Set report container style."""
