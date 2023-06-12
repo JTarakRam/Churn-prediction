@@ -1,14 +1,11 @@
 import streamlit as st
-# Set the host and port
-HOST = '0.0.0.0'
-PORT = 8501
 import json
 import plotly.io as pio
 
 st.title('Exploratory Data Analysis')
 
 # Load the EDA object from JSON
-with open('/Users/tarakram/Documents/Churn-Prediction/artifacts/eda.json', 'r') as f:
+with open('/Users/tarakram/Documents/Churn-Prediction/artifacts/Eda.json', 'r') as f:
     eda_data = json.load(f)
 
 # Function to render Plotly charts

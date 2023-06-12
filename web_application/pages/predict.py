@@ -1,19 +1,15 @@
 import pandas as pd
 import pickle
 import streamlit as st
-
-# Set the host and port
-HOST = '0.0.0.0'
-PORT = 8501
 from pathlib import Path
 from src.data import preprocess_data
 
 # Load the trained model
-with open('artifacts/churn_model.pkl', 'rb') as file:
+with open('/Users/tarakram/Documents/Churn-Prediction/artifacts/churn_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load the scaler
-with open("artifacts/scaler.pkl", "rb") as f:
+with open("/Users/tarakram/Documents/Churn-Prediction/artifacts/scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # Define the input prompts as Streamlit input widgets

@@ -1,8 +1,4 @@
 import streamlit as st
-
-# Set the host and port
-HOST = '0.0.0.0'
-PORT = 8501
 from annotated_text import annotated_text
 import pandas as pd
 import json
@@ -10,11 +6,10 @@ import json
 st.set_page_config(page_title="Performance Measures", layout="wide")
 
 st.title('Performance Measures')
-
-model_file_path = "/Users/tarakram/Documents/Churn-Prediction/artifacts/metrics.json"
-
-with open(model_file_path, 'r') as file:
-    model_data = json.load(file)
+    
+# Load the metrics  object from JSON
+with open('/Users/tarakram/Documents/Churn-Prediction/artifacts/metrics.json', 'r') as f:
+    model_data = json.load(f)
 
 col1, col2 = st.columns(2)
 
