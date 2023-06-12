@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/3f4dc1904e3346c0b347108b9e093903/artifacts
+end_time: 1686544068339
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f4dc1904e3346c0b347108b9e093903
+run_name: debonair-flea-365
+run_uuid: 3f4dc1904e3346c0b347108b9e093903
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686544066734
+status: 3
+tags: []
+user_id: tarakram

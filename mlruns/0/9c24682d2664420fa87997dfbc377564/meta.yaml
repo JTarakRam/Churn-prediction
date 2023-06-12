@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/9c24682d2664420fa87997dfbc377564/artifacts
+end_time: 1686544271359
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c24682d2664420fa87997dfbc377564
+run_name: casual-finch-27
+run_uuid: 9c24682d2664420fa87997dfbc377564
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686544270243
+status: 3
+tags: []
+user_id: tarakram

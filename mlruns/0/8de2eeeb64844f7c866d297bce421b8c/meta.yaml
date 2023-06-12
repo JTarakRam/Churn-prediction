@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/8de2eeeb64844f7c866d297bce421b8c/artifacts
+end_time: 1686544072766
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8de2eeeb64844f7c866d297bce421b8c
+run_name: trusting-cow-30
+run_uuid: 8de2eeeb64844f7c866d297bce421b8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686544071628
+status: 3
+tags: []
+user_id: tarakram

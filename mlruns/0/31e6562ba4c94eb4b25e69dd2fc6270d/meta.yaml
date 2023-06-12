@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/31e6562ba4c94eb4b25e69dd2fc6270d/artifacts
+end_time: 1686544269138
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31e6562ba4c94eb4b25e69dd2fc6270d
+run_name: sedate-elk-720
+run_uuid: 31e6562ba4c94eb4b25e69dd2fc6270d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686544267495
+status: 3
+tags: []
+user_id: tarakram

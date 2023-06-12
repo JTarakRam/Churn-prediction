@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/aba1e72bfa4e48edaab582ef595dd4cf/artifacts
+end_time: 1686544272430
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aba1e72bfa4e48edaab582ef595dd4cf
+run_name: rogue-smelt-677
+run_uuid: aba1e72bfa4e48edaab582ef595dd4cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686544271366
+status: 3
+tags: []
+user_id: tarakram

@@ -68,8 +68,8 @@ def split_data():
     df = pd.read_csv("/Users/tarakram/Documents/Churn-Prediction/data/processed/preprocessed_data.csv")
     target = 'Churn'
     train_data, test_data = train_test_split(df, test_size=0.2, random_state=42, stratify=df[target])
-    train_data.to_csv(Path(DATA_DIR, "processed/train_data.csv"), index=False)
-    test_data.to_csv(Path(DATA_DIR, "processed/test_data.csv"), index=False)
+    train_data.to_csv("/Users/tarakram/Documents/Churn-Prediction/data/processed/train_data.csv", index=False)
+    test_data.to_csv("/Users/tarakram/Documents/Churn-Prediction/data/processed/test_data.csv", index=False)
 
 @app.command()
 def train():

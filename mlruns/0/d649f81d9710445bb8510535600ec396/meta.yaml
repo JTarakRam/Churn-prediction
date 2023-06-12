@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/d649f81d9710445bb8510535600ec396/artifacts
+end_time: 1686544070506
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d649f81d9710445bb8510535600ec396
+run_name: clumsy-chimp-454
+run_uuid: d649f81d9710445bb8510535600ec396
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686544069447
+status: 3
+tags: []
+user_id: tarakram

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarakram/Documents/Churn-Prediction/mlruns/0/f3c3a43a28b84756acc451b5f436337d/artifacts
+end_time: 1686544270236
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3c3a43a28b84756acc451b5f436337d
+run_name: bustling-snake-274
+run_uuid: f3c3a43a28b84756acc451b5f436337d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686544269146
+status: 3
+tags: []
+user_id: tarakram
