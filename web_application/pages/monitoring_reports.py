@@ -1,15 +1,17 @@
 import os
+import sys
+# Get the current file's directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Get the parent directory
+parent_dir = os.path.dirname(current_dir)
+# Add the parent directory to the Python path
+sys.path.append(parent_dir)
 from pathlib import Path
 import streamlit as st
 from typing import Dict
 from typing import List
 from typing import Text
-import sys
-
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(os.path.dirname(current_dir))
-sys.path.append(parent_dir)
-from source.ui import display_header
+from web_application.pages.source.ui import display_header
 from source.ui import display_report
 from source.ui import select_report
 from source.ui import set_page_container_style
