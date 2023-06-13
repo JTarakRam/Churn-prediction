@@ -4,13 +4,13 @@ import streamlit as st
 from pathlib import Path
 from src.data import preprocess_data
 
-# Load the trained model
-with open('/Users/tarakram/Documents/Churn-Prediction/artifacts/churn_model.pkl', 'rb') as file:
-    model = pickle.load(file)
 
+with open('artifacts/churn_model.pkl', 'rb') as file:
+        model = pickle.load(file)
 # Load the scaler
-with open("/Users/tarakram/Documents/Churn-Prediction/artifacts/scaler.pkl", "rb") as f:
-    scaler = pickle.load(f)
+
+with open('artifacts/scaler.pkl', 'rb') as file:
+        scaler = pickle.load(file)
 
 # Define the input prompts as Streamlit input widgets
 gender = st.radio("Gender", ["Female", "Male"])

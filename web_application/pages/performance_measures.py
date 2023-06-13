@@ -6,11 +6,9 @@ import json
 st.set_page_config(page_title="Performance Measures", layout="wide")
 
 st.title('Performance Measures')
-    
-# Load the metrics  object from JSON
-with open('/Users/tarakram/Documents/Churn-Prediction/web_application/artifacts/metrics.json', 'r') as f:
-    model_data = json.load(f)
 
+with open('artifacts/metrics.json', 'rb') as file:
+        model_data = json.load(file)
 
 col1, col2 = st.columns(2)
 
