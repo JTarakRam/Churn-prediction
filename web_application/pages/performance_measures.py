@@ -11,6 +11,7 @@ st.title('Performance Measures')
 with open('/Users/tarakram/Documents/Churn-Prediction/artifacts/metrics.json', 'r') as f:
     model_data = json.load(f)
 
+
 col1, col2 = st.columns(2)
 
 with col1:

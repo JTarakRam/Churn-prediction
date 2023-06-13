@@ -2,9 +2,11 @@ artifacts
 churn-venv
 config
 data
+dist
 logs
 mlruns
 models
 notebooks
 reports
 src
+web_application

@@ -18,7 +18,7 @@ from config.config import ARTIFACTS_DIR
 warnings.filterwarnings("ignore")
 
 
-def plot_churn_distribution(data):
+def q1(data):
     churn_distribution = data['Churn'].value_counts()
     fig = px.bar(x=churn_distribution.index, y=churn_distribution.values)
     fig.update_layout(
@@ -27,11 +27,11 @@ def plot_churn_distribution(data):
         title='Distribution of Churn'
     )
 
-    plot_json = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    plot_json = fig.to_json()
     return plot_json
 
 
-def plot_demographics_churn_rate(data):
+def q2(data):
     demographics_churn_rate = data.groupby(['gender', 'SeniorCitizen', 'Partner', 'Dependents'])['Churn'].mean().reset_index()
     fig = px.bar(
         demographics_churn_rate,
@@ -47,11 +47,11 @@ def plot_demographics_churn_rate(data):
         title='Churn Rate by Demographics'
     )
 
-    plot_json = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    plot_json = fig.to_json()
     return plot_json
 
 
-def plot_reasons_for_churn(data):
+def q3(data):
     reasons_for_churn = data[['InternetService', 'OnlineSecurity', 'Contract', 'PaymentMethod', 'Churn']].groupby(['InternetService', 'OnlineSecurity', 'Contract', 'PaymentMethod'])['Churn'].sum().nlargest(5).reset_index()
     fig = px.bar(
         reasons_for_churn,
@@ -67,11 +67,11 @@ def plot_reasons_for_churn(data):
         title='Top Reasons for Churn'
     )
 
-    plot_json = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    plot_json = fig.to_json()
     return plot_json
 
 
-def plot_churn_by_internet_service(data):
+def q4(data):
     churn_by_internet_service = data.groupby('InternetService')['Churn'].value_counts(normalize=True).unstack()
     fig = px.bar(
         churn_by_internet_service,
@@ -80,20 +80,23 @@ def plot_churn_by_internet_service(data):
         title='Churn Rate by Internet Service'
     )
 
-    plot_json = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    plot_json = fig.to_json()
     return plot_json
 
+
 def save_eda_obj(data):
-    with open(Path(ARTIFACTS_DIR, 'eda.json'), 'w') as f:
+    with open(Path(ARTIFACTS_DIR, 'Eda.json'), 'w') as f:
         json.dump(data, f)
 
 data = pd.read_csv('/Users/tarakram/Documents/Churn-Prediction/data/processed/pre-processed_data.csv')
+
 # Generate the EDA object
 eda_data = {
-    "churn_distribution": plot_churn_distribution(data),
-    "demographics_churn_rate": plot_demographics_churn_rate(data),
-    "reasons_for_churn": plot_reasons_for_churn(data),
-    "churn_by_internet_service": plot_churn_by_internet_service(data),
+    "churn_distribution": q1(data),
+    "demographics_churn_rate": q2(data),
+    "reasons_for_churn": q3(data),
+    "churn_by_internet_service": q4(data),
 }
+
 # Save the EDA object as JSON
 save_eda_obj(eda_data)

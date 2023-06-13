@@ -1,3 +1,4 @@
+README.md
 setup.py
 Churn_prediction.egg-info/PKG-INFO
 Churn_prediction.egg-info/SOURCES.txt
@@ -14,3 +15,11 @@ src/predict.py
 src/report.py
 src/train.py
 src/utils.py
+web_application/main.py
+web_application/pages/eda.py
+web_application/pages/monitoring_reports.py
+web_application/pages/performance_measures.py
+web_application/pages/predict.py
+web_application/pages/source/__init__.py
+web_application/pages/source/ui.py
+web_application/pages/source/utils.py
