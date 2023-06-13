@@ -5,7 +5,7 @@ import plotly.io as pio
 st.title('Exploratory Data Analysis')
 
 # Load the EDA object from JSON
-with open('/Users/tarakram/Documents/Churn-Prediction/artifacts/Eda.json', 'r') as f:
+with open('/Users/tarakram/Documents/Churn-Prediction/web_application/artifacts/Eda.json', 'r') as f:
     eda_data = json.load(f)
 
 # Function to render Plotly charts

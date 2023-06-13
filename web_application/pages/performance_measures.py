@@ -8,7 +8,7 @@ st.set_page_config(page_title="Performance Measures", layout="wide")
 st.title('Performance Measures')
     
 # Load the metrics  object from JSON
-with open('/Users/tarakram/Documents/Churn-Prediction/artifacts/metrics.json', 'r') as f:
+with open('/Users/tarakram/Documents/Churn-Prediction/web_application/artifacts/metrics.json', 'r') as f:
     model_data = json.load(f)
 
 
