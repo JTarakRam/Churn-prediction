@@ -10,10 +10,12 @@ COPY requirements.txt /web_application/
 COPY reports /web_application/reports
 COPY pages /web_application/pages
 
-RUN pip install -r requirements.txt
-
 COPY main.py /web_application/
+
+COPY build/lib/src /web_application/src
+
+RUN pip install -r requirements.txt
 
 EXPOSE 8501
 
-CMD ["streamlit", "run", "--server.port", "8501", "/web_application/main.py"]
+CMD ["streamlit", "run", "--server.port", "8501", "main.py"]
