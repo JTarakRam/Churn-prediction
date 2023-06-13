@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "churn-prediction-project"
+version = "0.0.1"
+description = "Predicts whether the customer is going to churn or not"
+authors = ["Tarak Ram"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.10"
+requests = "^2.23.0"
+churn-prediction = { git = "https://github.com/JTarakRam/Churn-prediction.git" }
+
+[tool.poetry.dev-dependencies]
+pytest = "7.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

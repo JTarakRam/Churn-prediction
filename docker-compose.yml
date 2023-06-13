@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web_application:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8501:8501
+    volumes:
+      - ./artifacts:/web_application/artifacts
+      - ./src:/web_application/src
+      - ./config:/web_application/config
+      - ./web_application/pages:/web_application/pages
+      - ./web_application/reports:/web_application/reports
+
+
