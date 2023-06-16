@@ -2,7 +2,7 @@ FROM python:3.9-slim-buster
 
 WORKDIR /web_application
 
-COPY web_application/requirements.txt .
+COPY requirements.txt .
 COPY artifacts/ artifacts/
 COPY src/ src/
 COPY config/ config/
@@ -17,4 +17,4 @@ RUN pip install --upgrade pip && \
 
 EXPOSE 8501
 
-CMD ["streamlit", "run", "--server.port", "8501", "main.py"]
+CMD ["streamlit", "run", "main.py"]
