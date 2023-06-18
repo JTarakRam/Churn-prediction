@@ -13,7 +13,6 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 # Add the parent directory to the Python path
 sys.path.append(parent_dir)
-
 from source.utils import EntityNotFoundError
 from source.utils import get_report_name
 from source.utils import period_dir_to_dates_range
